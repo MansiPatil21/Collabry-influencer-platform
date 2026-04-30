@@ -1,8 +1,8 @@
 package com.group4.backend.controller;
 
-import com.group4.backend.repository.UserRepository;
+import com.group4.backend.repository.user.UserRepository;
 import com.group4.backend.security.JwtUtils;
-import com.group4.backend.service.CloudinaryService;
+import com.group4.backend.service.media.CloudinaryService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

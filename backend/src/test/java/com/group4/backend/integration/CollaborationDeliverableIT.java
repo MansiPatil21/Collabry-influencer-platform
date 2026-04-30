@@ -2,7 +2,7 @@ package com.group4.backend.integration;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.group4.backend.dto.DeliverableUpdateRequest;
+import com.group4.backend.dto.invitation.DeliverableUpdateRequest;
 import com.group4.backend.dto.auth.LoginRequest;
 import com.group4.backend.dto.campaign.CampaignRequest;
 import com.group4.backend.dto.invitation.InvitationRequest;

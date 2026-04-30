@@ -1,13 +1,14 @@
 package com.group4.backend.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.group4.backend.dto.*;
+import com.group4.backend.dto.invitation.*;
+import com.group4.backend.dto.campaign.*;
 import com.group4.backend.model.InvitationStatus;
 import com.group4.backend.model.Role;
 import com.group4.backend.model.User;
-import com.group4.backend.repository.UserRepository;
+import com.group4.backend.repository.user.UserRepository;
 import com.group4.backend.security.JwtUtils;
-import com.group4.backend.service.InvitationService;
+import com.group4.backend.service.campaign.InvitationService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -90,7 +91,7 @@ class InvitationControllerTest {
         InvitationDetailResponse detail = new InvitationDetailResponse();
         detail.setId(100L);
         detail.setStatus(InvitationStatus.PENDING);
-        CampaignResponse campaign = new CampaignResponse();
+        InvitationCampaignView campaign = new InvitationCampaignView();
         campaign.setId(1L);
         campaign.setName("Test Campaign");
         detail.setCampaign(campaign);

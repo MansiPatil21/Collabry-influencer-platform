@@ -2,7 +2,7 @@ package com.group4.backend.controller.campaign;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.group4.backend.controller.support.CurrentUserProvider;
-import com.group4.backend.dto.DeliverableUpdateRequest;
+import com.group4.backend.dto.invitation.DeliverableUpdateRequest;
 import com.group4.backend.dto.invitation.InvitationResponse;
 import com.group4.backend.model.InvitationStatus;
 import com.group4.backend.model.Role;

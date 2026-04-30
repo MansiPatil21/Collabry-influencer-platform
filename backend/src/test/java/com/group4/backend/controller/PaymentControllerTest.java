@@ -1,14 +1,14 @@
 package com.group4.backend.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.group4.backend.dto.PaymentRequest;
-import com.group4.backend.dto.PaymentResponse;
+import com.group4.backend.dto.payment.PaymentRequest;
+import com.group4.backend.dto.payment.PaymentResponse;
 import com.group4.backend.model.PaymentStatus;
 import com.group4.backend.model.Role;
 import com.group4.backend.model.User;
-import com.group4.backend.repository.UserRepository;
+import com.group4.backend.repository.user.UserRepository;
 import com.group4.backend.security.JwtUtils;
-import com.group4.backend.service.PaymentService;
+import com.group4.backend.service.payment.PaymentService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

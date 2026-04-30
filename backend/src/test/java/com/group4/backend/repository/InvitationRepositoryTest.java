@@ -1,5 +1,5 @@
 package com.group4.backend.repository;
-
+import com.group4.backend.repository.campaign.InvitationRepository;
 import com.group4.backend.model.CollaborationInvitation;
 import com.group4.backend.model.InvitationStatus;
 import org.junit.jupiter.api.Test;
