@@ -1,6 +1,6 @@
 package com.group4.backend.controller;
 
-import com.group4.backend.service.CloudinaryService;
+import com.group4.backend.service.media.CloudinaryService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,10 +1,15 @@
 package com.group4.backend.controller;
 
-import com.group4.backend.dto.*;
+import com.group4.backend.dto.invitation.*;
+import com.group4.backend.dto.profile.*;
+import com.group4.backend.dto.auth.*;
+import com.group4.backend.dto.campaign.*;
+import com.group4.backend.dto.payment.*;
+import com.group4.backend.dto.rating.*;
 import com.group4.backend.model.Role;
 import com.group4.backend.model.User;
-import com.group4.backend.repository.UserRepository;
-import com.group4.backend.service.InvitationService;
+import com.group4.backend.repository.user.UserRepository;
+import com.group4.backend.service.campaign.InvitationService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

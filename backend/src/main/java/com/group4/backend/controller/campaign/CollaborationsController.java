@@ -1,7 +1,7 @@
 package com.group4.backend.controller.campaign;
 
 import com.group4.backend.controller.support.CurrentUserProvider;
-import com.group4.backend.dto.DeliverableUpdateRequest;
+import com.group4.backend.dto.invitation.DeliverableUpdateRequest;
 import com.group4.backend.dto.invitation.InvitationResponse;
 import com.group4.backend.model.Role;
 import com.group4.backend.model.User;
