@@ -240,6 +240,6 @@ Copy `.env.example` to `.env` and configure:
 
 <div align="center">
 
-**Built with ❤️ using Spring Boot, React, and Groq AI**
+**Built using Spring Boot, React, and Groq AI**
 
 </div>
