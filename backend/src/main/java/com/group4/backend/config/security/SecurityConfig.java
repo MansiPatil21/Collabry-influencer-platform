@@ -61,6 +61,7 @@ public class SecurityConfig {
                 "http://localhost:5173",
                 "http://localhost:3000",
                 "http://localhost:5174",
+                "https://collabry-eta.vercel.app",
                 "http://csci5308-vm2.research.cs.dal.ca:8073",
                 "http://csci5308-vm2.research.cs.dal.ca:8074",
                 "http://csci5308-vm5.research.cs.dal.ca:8073",
